@@ -1,0 +1,5 @@
+.bookingButtonDiv{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: flex-end;
+}

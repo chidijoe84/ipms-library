@@ -1,0 +1,65 @@
+.form1{
+  
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 1px solid RGB(189,189,189);
+    
+}
+
+.mainForm{
+    display: flex;
+    flex-direction: row;
+    background-color: #2E2D4D;
+}
+.room_type{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    width: 100%;
+   
+
+}
+.room_type h3{
+   
+   
+    padding-left: 6px;
+    
+     font-size: 0.9rem;
+    }
+
+.book_img{
+   
+    height: 50%;
+    width: 50%;
+}
+.room_type_price{
+   
+    display: flex;
+    flex-direction: row;
+}
+.room_type_price p{
+    font-size: 0.9rem;
+    margin-left: 1.5%;
+    font-weight: 400;
+}
+
+.room_type_price i{
+    font-size: 0.7rem;
+}
+
+.price_span{
+    font-size: 1.5em;
+    font-weight: 800;
+    color: #2E2D4D;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+.skeletonBtn{
+    width: 30%;
+}

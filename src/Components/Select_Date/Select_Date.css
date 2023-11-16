@@ -1,0 +1,32 @@
+.dateFieldSelect{
+    margin-bottom: 1.5%;
+    padding: 1% 1% 1.5% 1%;
+    z-index: 30000;
+    /* height: 100vh; */
+}
+.changeDateDiv{
+    width: 76%;
+    margin-left: 9%;
+}
+
+.ant-picker-dropdown .ant-picker-panel-container{
+    /* background-color: aqua; */
+  
+    /* z-index: 40070 !important; */
+}
+
+/* .datePicj{
+    z-index: 30070 !important;
+    background-color: rgb(10, 31, 49);
+} */
+
+
+.mainBtn2{
+    border: #222 2px solid;
+    /* animation: pulse 3s linear infinite; */
+    margin-top: 5%;
+    padding: 5% 5% 5% 5%;
+    background-color: #222;
+    color: whitesmoke;
+    font-size: 0.8em;
+  }

@@ -1,0 +1,13 @@
+.homeRoutesFile{
+    /* background: url('https://quaysidehotel.co.uk/wp-content/uploads/2022/09/Reasons-to-a-room-direct-with-hotel-over-booking-via-third-party-travel-agency-1024x657.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center */
+    background-color: #EBECEF;
+    background-image: url('https://i.pinimg.com/originals/42/be/16/42be1676e4055cff58ade918d6b2fb25.png');
+      background-position: top right, bottom right;
+      background-repeat: no-repeat, no-repeat;
+      background-size: 25%;
+      height: auto;
+      min-height: 25vh;
+}

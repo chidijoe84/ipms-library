@@ -1,0 +1,23 @@
+.form__{
+    width: 100%;
+    border: 2px solid #198754;
+    border-radius: 5px;
+}
+
+.del{
+    font-size: 2em;
+    color: rgb(214, 12, 12);
+    cursor: pointer;
+}
+.is-invalid {
+    border-color: #dc3545; /* Change border color for invalid fields */
+  }
+  
+  .invalid-feedback {
+    color: #dc3545; /* Change text color for error messages */
+  }
+  .payNow{
+    background: transparent;
+    border: none;
+    color: whitesmoke;
+  }

@@ -1,0 +1,73 @@
+@keyframes pulse {
+    0% {
+      border-color: rebeccapurple;
+    }
+    25% {
+      border-color: burlywood;
+    }
+    50% {
+      border-color: green;
+    }
+    75% {
+      border-color: brown;
+    }
+    100% {
+      border-color: #222;
+    }
+  }
+
+  .modal-content{
+   
+}
+
+.modal-content{
+  /* opacity: 0.7; */
+  /* z-index: 1100; */
+  /* background-color: rgb(10, 31, 49); */
+}
+
+.fade{
+ 
+}
+
+.modal{
+  z-index: 0;
+}
+.modal-backdrop{
+  /* background-color: #c00c0c; */
+  z-index: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 0vw;
+  height: 0vh;
+}
+.modal-xl .modal-dialog{
+  z-index: 1;
+}
+
+  .buttonStyleFirst{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  .mainBtn{
+    border: 2px solid;
+    animation: pulse 3s linear infinite;
+    padding: 2% 2% 2% 2%;
+    background-color: #222;
+    color: whitesmoke;
+  }
+
+  .firstButtonBook{
+    border: 2px solid;
+    animation: pulse 3s linear infinite;
+    color: whitesmoke;
+    background-color: #222;
+    padding: 2% 5% 2% 5%;
+  }
+

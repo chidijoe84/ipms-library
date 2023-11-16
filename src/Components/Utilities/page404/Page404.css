@@ -1,0 +1,102 @@
+.page404{
+    margin-top: 6%;
+    background-color: whitesmoke;
+   display: flex;
+   flex-direction: column;
+   /* justify-content: center; */
+   align-items: center;
+    width: 60%;
+    margin-left: 20%;
+    height: 50vh auto; 
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; 
+     
+}
+
+.rightText{
+    margin-top: 7%;
+    /* background-color: palegoldenrod; */
+    width: 70%;
+    height: 12% ;
+    text-align: justify;
+    font-size: 1em;
+    padding: 3%;
+}
+
+  .t404 {
+    background-image: linear-gradient(30deg, #252323, #3e3cb1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bolder;
+    font-size: 10em;
+    text-decoration: underline;
+    /* margin-bottom: 6%; */
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+    animation: animateGradient 10s linear infinite;
+  }
+
+  @keyframes animateGradient {
+    0% {
+      background-position: 10% 0%;
+    }
+    100% {
+      background-position: 20% 100%;
+    }
+}
+
+.bouncing-div {
+    width: 30px;
+    height: 30px;
+    background-color: #000000;
+    border-radius: 50%;
+    animation: bounce 1.5s infinite;
+  }
+
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-500px);
+    }
+  }
+
+  .bouncing-div2 {
+    width: 30px;
+    height: 30px;
+    background-color: #000000;
+    border-radius: 50%;
+    animation: bounce 1s infinite;
+  }
+
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-500px);
+    }
+  }
+
+
+  
+
+.button{
+    margin-bottom: 6%;
+    /* background-color: red; */
+    width: 18%;
+}
+.button button{
+    background-color: #000000;
+    color: white;
+    padding: 5%;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+.button button:hover{
+    background-color: whitesmoke;
+    color: #1a1a36;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
