@@ -7,13 +7,15 @@ import { BrowserRouter } from 'react-router-dom';
 import AppRoute from './Components/AppRoute';
 import { Provider } from 'react-redux';
 import store from './Components/Redux/store';
+import Book_RoomBtn from './Components/Book_RoomBtn/Book_RoomBtn';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
     <Provider store={store}>
-    <AppRoute />
+    {/* <AppRoute /> */}
+    <Book_RoomBtn hotelGroupName={"Ontrac Hotel"}/>
     </Provider>
     </BrowserRouter>
   </React.StrictMode>

@@ -110,7 +110,6 @@ const Book_RoomBtn = ({hotelGroupName,
     }, 0);
 
     const getHotelName = (hotelName, hotelId) =>{
-      console.log("hotelName ==>",hotelName, hotelId)
       setHotelName(hotelName)
       setHotelId(hotelId)
     }
